@@ -1,0 +1,13 @@
+dependencies:
+  # - <org>/<repo>@<version>
+compiler:
+  solc:
+    remappings:
+      # - "@name=<org>/<repo>@<version>"
+dotenv: .env
+networks:
+  mainnet-fork-dev: 
+    verify: False
+  default: development
+wallets:
+  from-key: '0x'
